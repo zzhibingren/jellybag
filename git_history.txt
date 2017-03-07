@@ -20,3 +20,10 @@
 
   git add `git status | grep modified | sed 's/\(.*modified:\s*\)//'`
  git config --global credential.helper cache
+
+
+git status   //file tracking status
+git show    /history?
+
+git remote show origin  //git repo configuration
+
