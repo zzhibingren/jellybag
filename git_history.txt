@@ -15,3 +15,7 @@
   vi 
   git add
   git commit 
+
+
+
+  git add `git status | grep modified | sed 's/\(.*modified:\s*\)//'`
