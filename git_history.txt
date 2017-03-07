@@ -10,4 +10,8 @@
  1561  git push -u origin master
  1562  git pull -u origin master
 
-
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)a
+  vi 
+  git add
+  git commit 
