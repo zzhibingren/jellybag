@@ -66,3 +66,9 @@ git difftool hash1 hash2
  1744  git push origin branch_git
  1745  ls
  1746  history
+
+
+
+
+revert last commit (before push)
+ git reset --hard HEAD~1
