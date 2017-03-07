@@ -3,8 +3,11 @@
  1546  git remote add origin https://github.com/zzhibingren/jellybag.git
  1551  git pull -u origin
  1552  git pull -u origin master
- 1553  ls
- 1554  find .
- 1555  history
+ 
+
+ 1559  git add ./git_history.txt
+ 1560  git commit -m "add git history"
+ 1561  git push -u origin master
+ 1562  git pull -u origin master
 
 
