@@ -19,3 +19,4 @@
 
 
   git add `git status | grep modified | sed 's/\(.*modified:\s*\)//'`
+ git config --global credential.helper cache
