@@ -27,3 +27,20 @@ git show    /history?
 
 git remote show origin  //git repo configuration
 
+//see diff 
+//git log -p -1
+
+root@vm-griffin-6203:~/git_home# git log --pretty=oneline
+b5d3c59e4254963c7c4269c41f6cf603e6decc00 modify history
+0dfb0be83f916af577e49051feab9b642d2f997e modify history
+d98e5569b3f8f74ef94a47ef0265b42ebe5f3da9 modify history
+505128cf764b5448806181db2e54ba319b6f7540 modify history
+ae8bd09e0b64dd427c8c4b29ecedad0c21f93384 add git history
+08828e49312b862d33ee5903f6273f03fab1a1ea add git history
+612203efc1a530b6266f7a5053cb4878f4864ffe update comments
+1dc488e1bda32fbf037d781f6b549e7ab88477a5 adding test src
+10faad7e041e19c1c66fbbfbb2e59cdaccf0b180 test.cpp
+2dc087999f8e0feaa0b60db17154e6c5bb1b4f22 first commit
+//see diff of a checkin:
+root@vm-griffin-6203:~/git_home# git show 2dc087999f8e0feaa0b60db17154e6c5bb1b4f22
+git difftool hash1 hash2
