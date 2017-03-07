@@ -1,0 +1,10 @@
+1541  cd git_home/
+ 1545  git init
+ 1546  git remote add origin https://github.com/zzhibingren/jellybag.git
+ 1551  git pull -u origin
+ 1552  git pull -u origin master
+ 1553  ls
+ 1554  find .
+ 1555  history
+
+
